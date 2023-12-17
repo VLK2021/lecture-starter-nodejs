@@ -16,7 +16,7 @@ app.use("/", express.static("./client/build"));
 
 const port = 3080;
 app.listen(port, () => {
-    console.log('server is started!!!');
+    console.log(`server is started!!! ${port}`);
 });
 
 export { app };

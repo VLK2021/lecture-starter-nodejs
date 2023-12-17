@@ -10,4 +10,6 @@ const initRoutes = (app) => {
   app.use("/api/auth", authRoutes);
 };
 
+
+
 export { initRoutes };
